@@ -1,0 +1,66 @@
+.quadro-esquerda {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    margin-left: 380px;
+    margin-right: 600px;
+    margin-top: 180px;
+    height: 320px;
+    width: 240px;
+    
+    font-family: "Hanken Grotesk";
+    color: hsl(241, 100%, 89%);
+}
+
+.cabecalho-esquerda {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+}
+
+.valores-esquerda {
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+    margin-left: 57px;    
+}
+
+.valor-pincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    color: hsl(0, 0%, 100%);
+    font-size: 40px;
+}
+
+.valor-secundario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.conteudo-esquerda {
+    height: 100px;
+}
+
+.titulo-conteudo {
+    display: flex;
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.paragrafo-conteudo {
+    height: 100px;
+    padding: 25px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 13px;
+    text-align: center;
+
+}
