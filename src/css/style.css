@@ -1,17 +1,30 @@
-.quadro-esquerda {
-    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+body {
+    background-color: hsl(221, 100%, 96%);
+}
+
+.quadro {
     border-radius: 20px;
-    margin-left: 380px;
-    margin-right: 600px;
     margin-top: 180px;
-    height: 320px;
-    width: 240px;
-    
+    height: 326px;
+    width: 236px;
     font-family: "Hanken Grotesk";
+}
+
+.quadro.resultado {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    margin-left: 450px;
+    margin-right: 600px;
     color: hsl(241, 100%, 89%);
 }
 
-.cabecalho-esquerda {
+.quadro.sumario {
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 685px;
+    margin-top: -325px;
+
+}
+
+.titulo-resultado {
     font-size: 16px;
     display: flex;
     justify-content: center;
@@ -19,35 +32,32 @@
     min-height: 70px;
 }
 
-.valores-esquerda {
+.valores-resultado {
     background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 50%;
     height: 125px;
     width: 125px;
-    margin-left: 57px;    
+    margin-left: 57px;
 }
 
-.valor-pincipal {
+.valor-resultado {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 20px;
     color: hsl(0, 0%, 100%);
     font-size: 40px;
+    font-weight: 900;
 }
 
-.valor-secundario {
+.subvalor-resultado {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 13px;
 }
 
-.conteudo-esquerda {
-    height: 100px;
-}
-
-.titulo-conteudo {
+.titulo-feedback {
     display: flex;
     justify-content: center;
     color: hsl(0, 0%, 100%);
@@ -55,12 +65,118 @@
     font-size: 20px;
 }
 
-.paragrafo-conteudo {
+.conteudo-feedback {
     height: 100px;
     padding: 25px;
     padding-left: 30px;
     padding-top: 10px;
     font-size: 13px;
     text-align: center;
+}
 
+.titulo-sumario {
+    background-color: hsl(0, 0%, 100%);
+    height: 50px;
+    font-size: 17px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+.itens-sumario {
+    background-color: hsl(0, 0%, 100%);
+    height: 180px;
+    padding-top: 10px;
+}
+
+.valor-sumario {
+    font-size: 13px;
+    margin-left: 25px;
+    margin-top: 3px;
+    background-color: red;
+}
+
+.icone {
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.item {
+    display: inline-flex;
+    width: 182px;
+    height: 35px;
+    margin-left: 25px;
+    font-size: 12px;
+    padding-top: 5px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.item.reaction {
+    background-color: hsla(0, 100%, 67%, 0.12);
+
+}
+
+.titulo-reaction {
+    color: hsl(0, 100%, 67%);
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.item.memory {
+    background-color: hsla(39, 100%, 56%, 0.12);
+}
+
+.titulo-memory {
+    color: hsl(39, 100%, 56%);
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.item.verbal {
+    background-color: hsla(166, 100%, 37%, 0.08);
+}
+
+.titulo-verbal {
+    color: hsl(166, 100%, 37%);
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.item.visual {
+    background-color: hsla(241, 100%, 89%, 0.18);
+}
+
+.titulo-visual {
+    color: hsl(234, 85%, 45%);
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+
+.botao {
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    width: 186px;
+    height: 40px;
+    margin-left: 25px;
+    border-radius: 22px;
+    margin-top: 30px;
+    font-family: "Hanken Grotesk";
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
