@@ -1,0 +1,72 @@
+@media (max-width: 425px) {
+
+    .quadro.resultado {
+        margin: 0px;
+        min-width: 100vw;
+        height: calc(100vh - 585px);
+        border-top-right-radius: 0%;
+        border-top-left-radius: 0%;
+    }
+
+    .quadro.sumario {
+        margin: 0px;
+        min-width: 100vw;
+        height: calc(100vh - 310px);
+    }
+
+    .titulo-sumario {
+        margin-left: 40px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .itens-sumario {
+        margin-left: 15px;
+    }
+
+    .item {
+        width: 325px;
+        height: 60px;
+        margin-bottom: 25px;
+    }
+
+    .valores-resultado {
+        margin-left: 148px;
+    }
+
+    .conteudo-feedback {
+        margin: 70px;
+        margin-top: 0px;
+    }
+
+    .botao {
+        margin-left: 15px;
+        margin-top: 200px;
+        width: 380px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .icone {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .titulos-sumario {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 8px;
+    }
+
+    .valor-sumario {
+        font-size: 15px;
+        margin-left: 100px;
+    }
+
+    .valor-sumario.separado {
+        margin-left: 117px;
+    }
+
+}
